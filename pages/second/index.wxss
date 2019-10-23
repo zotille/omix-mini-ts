@@ -1,0 +1,15 @@
+.second-page {
+  width: 100vw;
+  height: 100vh;
+}
+.second-page .wrapper {
+  width: 100rpx;
+  height: 100rpx;
+  background-color: yellow;
+  color: red;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

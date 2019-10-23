@@ -1,0 +1,15 @@
+.index-page {
+  width: 100vw;
+  height: 100vh;
+}
+.index-page .wrapper {
+  width: 100rpx;
+  height: 100rpx;
+  background-color: aqua;
+  color: blueviolet;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

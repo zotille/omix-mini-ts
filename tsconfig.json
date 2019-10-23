@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "noImplicitAny": false,
+    "module": "CommonJS",
+    "lib": [
+      "es2015"
+    ],
+    "target": "ES5",
+    "allowJs": false,
+    "experimentalDecorators": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "alwaysStrict": true,
+    "inlineSourceMap": false,
+    "inlineSources": false,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "strict": true,
+    "removeComments": true,
+    "pretty": true,
+    "outDir": ".",
+    "strictPropertyInitialization": true,
+    "types": [
+      "miniprogram-api-typings"
+    ]
+  },
+  "include": [
+    "src/pages/**/*.ts",
+    "src/store/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "omix_mini_ts",
+  "version": "1.0.1",
+  "scripts": {
+    "compile": "./node_modules/typescript/bin/tsc",
+    "start": "node ./watch.js"
+  },
+  "devDependencies": {
+    "child_process": "^1.0.2",
+    "chokidar": "^3.2.2",
+    "miniprogram-api-typings": "^2.8.3-1",
+    "node-watch": "^0.6.3",
+    "typescript": "^3.6.4",
+    "wxss-cli": "^1.0.4"
+  }
+}
