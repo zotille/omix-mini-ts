@@ -2,7 +2,7 @@
   "name": "omix_mini_ts",
   "version": "1.0.1",
   "scripts": {
-    "compile": "./node_modules/typescript/bin/tsc",
+    "compile": "./node_modules/typescript/bin/tsc -watch",
     "start": "node ./watch.js"
   },
   "devDependencies": {
