@@ -1,0 +1,4 @@
+<!-- second.wxml -->
+<view class="second-page flex-center">
+  <view class="wrapper flex-center" style="background-color:{{store.color}}" bind:tap="onTap">{{store.data}}</view>
+</view>

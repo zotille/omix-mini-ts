@@ -1,0 +1,13 @@
+declare const formatNumber: (n: number) => string;
+declare const formatTime: (date: Date) => string;
+declare const methods: string[];
+declare const triggerStr: string;
+declare const isArray: (obj: any) => boolean;
+declare const isString: (obj: any) => boolean;
+declare const isInArray: (arr: any, item: any) => boolean;
+declare const isFunction: (obj: any) => boolean;
+declare const _getRootName: (prop: any, path: any) => any;
+declare const add: (obj: any, prop: any) => void;
+declare const set: (obj: any, prop: any, value: any, exec: any) => void;
+declare const nan: (value: any) => boolean;
+export { formatTime, formatNumber, methods, triggerStr, isArray, isString, isInArray, isFunction, _getRootName, add, set, nan };

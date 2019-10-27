@@ -2,7 +2,7 @@
   "compilerOptions": {
     "strictNullChecks": true,
     "noImplicitAny": false,
-    "module": "CommonJS",
+    "module": "ES2015",
     "lib": [
       "es2015"
     ],
@@ -19,18 +19,12 @@
     "noUnusedParameters": false,
     "strict": true,
     "removeComments": true,
+    "declaration": true,
     "pretty": true,
-    "outDir": ".",
+    "rootDir": "src",
     "strictPropertyInitialization": true,
     "types": [
       "miniprogram-api-typings"
     ]
-  },
-  "include": [
-    "src/pages/**/*.ts",
-    "src/store/*.ts"
-  ],
-  "exclude": [
-    "node_modules",
-  ]
+  }
 }

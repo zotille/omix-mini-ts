@@ -1,5 +1,0 @@
-<!-- index.wxml -->
-<view class="index-page flex-center">
-  <view class="wrapper flex-center" bind:tap="onTap">{{store.data}}</view>
-</view>
->
